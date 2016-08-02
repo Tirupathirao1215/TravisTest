@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>TestNG:  TaylorMade-android-GT-I9500</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TaylorMade-android-GT-I9500</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/2</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Aug 11 10:52:31 IST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5382 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.appium.project.scripts.TestTaylorMade.beforeTest()'><b>beforeTest</b><br>Test class: com.appium.project.scripts.TestTaylorMade<br>Parameters: Appium, true, false, true, chrome, com.bytearc.SafariLauncher, Android, 4.4.2, GT-I9500, 4d005c1cb4e26033, http://172.16.13.41:4444/wd/hub</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Device 4d005c1cb4e26033 was not in the list of connected devices) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.95 seconds
+Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
+System info: host: &apos;HW1937&apos;, ip: &apos;172.16.13.41&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_11&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:39)
+	at com.automation.accelerators.TestEngine.beforeTest(TestEngine.java:73)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1297764899", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1297764899'><pre>org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Device 4d005c1cb4e26033 was not in the list of connected devices) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.95 seconds
+Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
+System info: host: &apos;HW1937&apos;, ip: &apos;172.16.13.41&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_11&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:39)
+	at com.automation.accelerators.TestEngine.beforeTest(TestEngine.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:647)
+	at org.testng.TestRunner.run(TestRunner.java:615)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.appium.project.scripts.TestTaylorMade.beforeMethod()'><b>beforeMethod</b><br>Test class: com.appium.project.scripts.TestTaylorMade</td>
+<td></td>
+<td>0</td>
+<td>com.appium.project.scripts.TestTaylorMade@6139ce9b</td></tr>
+<tr>
+<td title='com.appium.project.scripts.TestTaylorMade.beforeMethod()'><b>beforeMethod</b><br>Test class: com.appium.project.scripts.TestTaylorMade</td>
+<td></td>
+<td>0</td>
+<td>com.appium.project.scripts.TestTaylorMade@6139ce9b</td></tr>
+<tr>
+<td title='com.appium.project.scripts.TestTaylorMade.afterMethod()'><b>afterMethod</b><br>Test class: com.appium.project.scripts.TestTaylorMade</td>
+<td></td>
+<td>0</td>
+<td>com.appium.project.scripts.TestTaylorMade@6139ce9b</td></tr>
+<tr>
+<td title='com.appium.project.scripts.TestTaylorMade.afterMethod()'><b>afterMethod</b><br>Test class: com.appium.project.scripts.TestTaylorMade</td>
+<td></td>
+<td>0</td>
+<td>com.appium.project.scripts.TestTaylorMade@6139ce9b</td></tr>
+<tr>
+<td title='com.appium.project.scripts.TestTaylorMade.afterTest()'><b>afterTest</b><br>Test class: com.appium.project.scripts.TestTaylorMade</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.appium.project.scripts.TestTaylorMade.OrderingOfProducts()'><b>OrderingOfProducts</b><br>Test class: com.appium.project.scripts.TestTaylorMade<br>Parameters: org.testng.TestRunner@2258ed1</td>
+<td></td>
+<td>0</td>
+<td>com.appium.project.scripts.TestTaylorMade@6139ce9b</td></tr>
+<tr>
+<td title='com.appium.project.scripts.TestTaylorMade.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: com.appium.project.scripts.TestTaylorMade<br>Parameters: WrongTitle</td>
+<td></td>
+<td>0</td>
+<td>com.appium.project.scripts.TestTaylorMade@6139ce9b</td></tr>
+</table><p>
+</body>
+</html>

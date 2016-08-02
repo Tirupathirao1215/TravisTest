@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GATF" duration-ms="5353" started-at="2016-08-02T11:10:49Z" finished-at="2016-08-02T11:10:55Z">
+    <groups>
+    </groups>
+    <test name="Caresync-android-GT-I9300" duration-ms="5353" started-at="2016-08-02T11:10:49Z" finished-at="2016-08-02T11:10:55Z">
+      <class name="com.appium.project.scripts.SampleTest">
+        <test-method status="PASS" signature="test123()[pri:0, instance:com.appium.project.scripts.SampleTest@d1277]" name="test123" duration-ms="5338" started-at="2016-08-02T16:40:49Z" finished-at="2016-08-02T16:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test123 -->
+      </class> <!-- com.appium.project.scripts.SampleTest -->
+    </test> <!-- Caresync-android-GT-I9300 -->
+  </suite> <!-- GATF -->
+</testng-results>

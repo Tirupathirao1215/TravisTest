@@ -1,0 +1,13 @@
+name: GATF
+threadCount: 4
+parallel: tests
+listeners:
+  - org.uncommons.reportng.HTMLReporter
+  - org.uncommons.reportng.JUnitXMLReporter
+tests:
+  - name: Caresync-android-GT-I9300
+    parallel: tests
+    parameters: { automationName: Appium, platformVersion: 4.4, platformName: Android, deviceName: Samsung, browserName: chrome, deviceID: 4be5c482, appiumUrl: http://127.0.0.1:4723/wd/hub }
+    classes:
+      - com.appium.project.scripts.Add_SamsclubItems
+

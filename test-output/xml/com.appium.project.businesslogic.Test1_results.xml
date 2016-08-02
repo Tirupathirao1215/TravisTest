@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TaylorMade-web"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.772">
+  <properties />
+  
+  
+            <testcase name="test" time="2.555" classname="com.appium.project.businesslogic.Test1" />
+                <testcase name="test2" time="1.217" classname="com.appium.project.businesslogic.Test1" />
+      
+</testsuite>

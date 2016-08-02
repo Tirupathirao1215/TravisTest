@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TaylorMade-web1"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="85.228">
+  <properties />
+  
+  
+            <testcase name="verifyPageTitle" time="7.969" classname="com.appium.project.scripts.TestTaylorMadeWeb" />
+                <testcase name="OrderingOfProducts" time="77.259" classname="com.appium.project.scripts.TestTaylorMadeWeb" />
+      
+</testsuite>

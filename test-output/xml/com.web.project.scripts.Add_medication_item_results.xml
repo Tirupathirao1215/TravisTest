@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CareSync-web"
+           tests="5"
+           failures="1"
+           errors="0"
+           skipped="4"
+           time="0.001">
+  <properties />
+            <testcase name="beforeTest" time="0.000" classname="com.web.project.scripts.Add_medication_item">
+                <failure type="org.openqa.selenium.remote.UnreachableBrowserException"
+                  message="Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;HW0697&apos;, ip: &apos;172.16.28.100&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_75&apos;
+Driver info: driver.version: RemoteWebDriver"
+              >
+<![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'HW0697', ip: '172.16.28.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_75'
+Driver info: driver.version: RemoteWebDriver
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+  org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.pageLoadTimeout(RemoteWebDriver.java:841)
+  org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTimeouts.pageLoadTimeout(EventFiringWebDriver.java:566)
+  com.automation.accelerators.TestEngineWeb.beforeTest(TestEngineWeb.java:123)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+  org.testng.TestRunner.beforeRun(TestRunner.java:641)
+  org.testng.TestRunner.run(TestRunner.java:609)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7056 [/127.0.0.1] failed: Connection refused: connect
+  org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
+  org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+  org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+  org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+  org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+  org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+  org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+  org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+  org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:161)
+  org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+  org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:170)
+  org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+  org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.pageLoadTimeout(RemoteWebDriver.java:841)
+  org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTimeouts.pageLoadTimeout(EventFiringWebDriver.java:566)
+  com.automation.accelerators.TestEngineWeb.beforeTest(TestEngineWeb.java:123)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+  org.testng.TestRunner.beforeRun(TestRunner.java:641)
+  org.testng.TestRunner.run(TestRunner.java:609)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+  java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+  java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+  java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+  java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+  java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+  java.net.PlainSocketImpl.connect(Unknown Source)
+  java.net.SocksSocketImpl.connect(Unknown Source)
+  java.net.Socket.connect(Unknown Source)
+  org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+  org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
+  org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+  org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+  org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+  org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+  org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+  org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+  org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+  org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:161)
+  org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+  org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:170)
+  org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+  org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.pageLoadTimeout(RemoteWebDriver.java:841)
+  org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTimeouts.pageLoadTimeout(EventFiringWebDriver.java:566)
+  com.automation.accelerators.TestEngineWeb.beforeTest(TestEngineWeb.java:123)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+  org.testng.TestRunner.beforeRun(TestRunner.java:641)
+  org.testng.TestRunner.run(TestRunner.java:609)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="afterMethod" time="0.0" classname="com.web.project.scripts.Add_medication_item">
+          <skipped />
+    </testcase>
+            <testcase name="afterTest" time="0.0" classname="com.web.project.scripts.Add_medication_item">
+          <skipped />
+    </testcase>
+            <testcase name="beforeMethod" time="0.0" classname="com.web.project.scripts.Add_medication_item">
+          <skipped />
+    </testcase>
+            <testcase name="Adding_medication" time="0.0" classname="com.web.project.scripts.Add_medication_item">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

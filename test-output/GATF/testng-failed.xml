@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [GATF]" parallel="tests">
+  <parameter name="automationName" value="Appium"/>
+  <parameter name="platformVersion" value="4.4"/>
+  <parameter name="deviceName" value="Samsung"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="deviceID" value="4be5c482"/>
+  <parameter name="appiumUrl" value="http://127.0.0.1:4723/wd/hub"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Caresync-android-GT-I9300(failed)" parallel="tests">
+    <parameter name="automationName" value="Appium"/>
+    <parameter name="platformVersion" value="4.4"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="Samsung"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="deviceID" value="4be5c482"/>
+    <parameter name="appiumUrl" value="http://127.0.0.1:4723/wd/hub"/>
+    <classes>
+      <class name="com.appium.project.scripts.Add_SamsclodItems">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="selectIteam"/>
+        </methods>
+      </class> <!-- com.appium.project.scripts.Add_SamsclodItems -->
+    </classes>
+  </test> <!-- Caresync-android-GT-I9300(failed) -->
+</suite> <!-- Failed suite [GATF] -->

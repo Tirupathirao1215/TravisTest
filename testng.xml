@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GATF" parallel="tests" thread-count="4"
+	preserve-order="true">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<!-- For iOS -->
+<!--  <test name="CareSync-iOS-iPhone 6">
+		<parameter name="automationName" value="Appium" />
+		<parameter name="rotatable" value="true" />
+		<parameter name="safariAllowPopups" value="false" />
+		<parameter name="safariIgnoreFraudWarning" value="true" />
+		<parameter name="mbrowser" value="Safari" />
+		<parameter name="app" value="/Users/ctl-user/Desktop/caresyncApp/Payload/CareSync.app" />
+		<parameter name="appiumUrl" value="http://127.0.0.1:4725/wd/hub" />
+		<parameter name="deviceID" value="cf1674d712710ef7627926e77f52a7fcaa064a5b" />
+		<parameter name="deviceName" value="iPhone 6" />
+		<parameter name="platformName" value="iOS" />
+		<parameter name="platformVersion" value="8.4" />
+		<parameter name="apppackage" value="" />
+		<parameter name="appactivity" value="" />
+		<classes>
+			<class name="com.appium.project.scripts.Add_medication_item"/> 
+			
+		</classes>
+		</test> -->
+
+	<!--  For Android -->
+	 <test name="Caresync-android-GT-I9300">
+		<parameter name="automationName" value="Appium" />
+		<parameter name="browserName" value="chrome"/>
+		
+		<parameter name="appiumUrl" value="http://127.0.0.1:4723/wd/hub" />
+		<parameter name="deviceID" value="4be5c482" />
+		<parameter name="deviceName" value="Samsung" />
+		<parameter name="platformName" value="Android" />
+		<parameter name="platformVersion" value="4.4" />
+		<classes>
+			<!--  <class name="com.appium.project.scripts.Add_medication_item"/>-->
+			<class name="com.appium.project.scripts.SampleTest"/> 
+		</classes> 
+	</test>  
+
+ <!-- For Web --> 
+<!--	 <test name="CareSync-web" >
+	
+	 <parameter name="automationName" value="Selenium" />	 
+	 <parameter name="browser" value="firefox"/>
+	 <parameter name="browserVersion" value="44"/>	
+	 <parameter name="platformName" value="Windows 7" />
+	 <parameter name = "environment" value = "local"/>
+	 <parameter name = "rotatable" value = ""/>
+	  <parameter name = "safariAllowPopups" value = ""/>
+	 
+	 	 <classes>
+				<class name="com.web.project.scripts.Add_medication_item"/>			
+		</classes>
+		</test> -->
+</suite>

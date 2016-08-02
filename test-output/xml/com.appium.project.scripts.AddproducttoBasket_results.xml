@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TaylorMade-iOS-iPhone (4)"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="39.225">
+  <properties />
+  
+  
+            <testcase name="Add_Product_To_Basket" time="39.225" classname="com.appium.project.scripts.AddproducttoBasket" />
+      
+</testsuite>

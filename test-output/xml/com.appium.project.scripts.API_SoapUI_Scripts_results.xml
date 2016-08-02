@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TaylorMade-web"
+           tests="5"
+           failures="1"
+           errors="0"
+           skipped="4"
+           time="0.004">
+  <properties />
+            <testcase name="beforeTest" time="0.000" classname="com.appium.project.scripts.API_SoapUI_Scripts">
+                <failure type="org.testng.TestNGException"
+                  message="
+Parameter &apos;automationName&apos; is required by @Configuration on method beforeTest but has not been marked @Optional or defined
+in C:\Java_Project\Selenium-Appium-SoapUI\Selenium-Appium-SoapUI\testng.xml"
+              >
+<![CDATA[org.testng.TestNGException: 
+Parameter 'automationName' is required by @Configuration on method beforeTest but has not been marked @Optional or defined
+in C:\Java_Project\Selenium-Appium-SoapUI\Selenium-Appium-SoapUI\testng.xml
+  org.testng.internal.Parameters.createParameters(Parameters.java:148)
+  org.testng.internal.Parameters.createParameters(Parameters.java:361)
+  org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
+  org.testng.TestRunner.beforeRun(TestRunner.java:645)
+  org.testng.TestRunner.run(TestRunner.java:613)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="beforeMethod" time="0.0" classname="com.appium.project.scripts.API_SoapUI_Scripts">
+          <skipped />
+    </testcase>
+            <testcase name="afterTest" time="0.0" classname="com.appium.project.scripts.API_SoapUI_Scripts">
+          <skipped />
+    </testcase>
+            <testcase name="afterMethod" time="0.0" classname="com.appium.project.scripts.API_SoapUI_Scripts">
+          <skipped />
+    </testcase>
+            <testcase name="launchProject" time="0.0" classname="com.appium.project.scripts.API_SoapUI_Scripts">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>
